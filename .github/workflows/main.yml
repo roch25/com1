@@ -3,8 +3,6 @@ name: Actions Read Test
 on:
   workflow_dispatch:
 
-permissions:
-  actions: read  
 
 jobs:
   test:
