@@ -31,7 +31,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: try echos
-        run: echo "$ {{ GITHUB_PATH }}"
+        run: echo "$GITHUB_PATH"
       - name: Detect package manager
         id: detect-package-manager
         run: |
